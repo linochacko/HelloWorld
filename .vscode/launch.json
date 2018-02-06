@@ -2,18 +2,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(Windows) Launch",
-            "type": "cppvsdbg",
+            "name": "Linux Launch",
+            "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/a.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": true
-        },
+            "program": "${workspaceRoot}/a.out",
+            "cwd": "${workspaceRoot}"
+         },
+        
         {
-            "name": "(gdb) Launch",
+            "name": "Windows Launch(gdb)",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/a.exe",
@@ -32,6 +29,17 @@
                 }
             ],
             "preLaunchTask": "build hello world"
+        },
+        {
+            "name": "(Windows) Launch MSC++",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true
         }
     ]
 }

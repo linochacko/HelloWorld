@@ -28,7 +28,8 @@
             "includePath": [
                 "/usr/include",
                 "/usr/local/include",
-                "${workspaceRoot}"
+                "${workspaceRoot}",
+                "/usr/include/c++/5" 
             ],
             "defines": [],
             "intelliSenseMode": "clang-x64",
@@ -79,7 +80,6 @@
                 "C:\\mingw-w64\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\7.2.0\\include\\c++",
                 "C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/tr1",
                 "C:/mingw-w64/mingw64/x86_64-w64-mingw32/include"
-               
             ],
             "defines": [
                 "_DEBUG",
