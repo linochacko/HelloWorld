@@ -6,7 +6,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g", "-o a.out" ,"hello.cpp"
+                "-g", "hello.cpp"
             ],
             "group": {
                 "kind": "build",

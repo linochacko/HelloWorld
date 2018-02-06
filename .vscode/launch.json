@@ -34,7 +34,7 @@
             "name": "(Windows) Launch MSC++",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/a.out",
+            "program": "${workspaceFolder}/a.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
